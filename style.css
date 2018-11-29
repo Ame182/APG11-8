@@ -1,8 +1,6 @@
 .jumbotron {
-	background-image: url(images_cv/bg.jpeg);
-	background-size: cover;
 	text-align: center;
-	color: white;
+	color: white .5;
 	padding-right: 40px;
 	padding-top: 30px;
 	padding-left: 20px;
@@ -14,6 +12,28 @@ nav{
 	right: 0px;
 	top: 0px;
 }
+
+#carousel-example-generic{
+	margin-top: -25px;
+}
+
+.carousel-slide {
+	margin-top: -30px;
+	height: 100vw;
+}
+
+.carousel-inner {
+	height: 450px;
+}
+
+#textt {
+	height: 400px;
+}
+
+#textto {
+	height: 400px;
+}
+
 ul{
 	list-style-type: none;
 	margin: 0px;
